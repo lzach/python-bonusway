@@ -1,4 +1,4 @@
-#Simple command-line utility for querying BonusWay campaigns
+# Simple command-line utility for querying BonusWay campaigns
 
 To install the utility, use
 
@@ -12,7 +12,7 @@ And to run it:
 python3 -m python_task
 ```
 
-##Additional features
+## Additional features
 
 By default, the program will query the `https://static-api.prod.bonusway.com/api/16/campaigns_limit_{limit}_offset_{offset}_order_popularity.json` api endpoint (where {limit} and {offset} are integers)
 and filter out all items whose commission is not in percent or is less-or-equal to 2.25 and
