@@ -1,0 +1,6 @@
+.cache/
+*.sqlite
+*.egg-info/
+__pycache__/
+venv/
+.idea/
